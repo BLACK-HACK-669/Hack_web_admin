@@ -133,21 +133,10 @@ def getRobotsFile(domain):
         sys.exit("Could not retrieve robots.txt!")
 
 if __name__ == "__main__":
-    print('''
-░░░░░░░░░░░█▀▀░░█░░░░░░
-░░░░░░▄▀▀▀▀░░░░░█▄▄░░░░
-░░░░░░█░█░░░░░░░░░░▐░░░
-░░░░░░▐▐░░░░░░░░░▄░▐░░░
-░░░░░░█░░░░░░░░▄▀▀░▐░░░
-░░░░▄▀░░░░░░░░▐░▄▄▀░░░░
-░░▄▀░░░▐░░░░░█▄▀░▐░░░░░
-░░█░░░▐░░░░░░░░▄░█░░░░░
-░░░█▄░░▀▄░░░░▄▀▐░█░░░░░
-░░░█▐▀▀▀░▀▀▀▀░░▐░█░░░░░
-░░▐█▐▄░░▀░░░░░░▐░█▄▄░░░
-░░░▀▀▄░░░░░░░░▄▐▄▄▄▀░░░
-░░░░░░░░░░░░░░░░░░░░░░░
-''')
+    print("        +++++++++++++++++++admin_panel_sniffer by MCoury+++++++++++++++++++")
+    print("        +                should work with python 2 or 3                   +")
+    print("        +           Author not responsible for malicious use!             +")
+    print("        +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n\n")
     parser = optparse.OptionParser("Usage: python %prog --domain <target domain> " \
                                    + "--progress <index of the page the script reached last run> " \
                                    + "--page_extension <website language> --strict <True or False> " \
