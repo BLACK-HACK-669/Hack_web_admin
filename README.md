@@ -1,1 +1,1 @@
-# Hack_web_admin
+python Hack_web_admin.py --domain [target domain] --progress [index of the page the script reached last run] --page_extension [website language] --strict [True or False] --save [Save the results to a text file?] --verbose [print links as they're tested?] --wordlist [dictionary file to use] --robots [if True don't enter anything else except the domain name]
