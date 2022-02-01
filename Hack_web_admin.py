@@ -211,3 +211,4 @@ if __name__ == "__main__":
         getRobotsFile(options.domain)
     else:
         main(options.domain, progress, page_ext, strict_mode, save, verbose, wordlist)
+
