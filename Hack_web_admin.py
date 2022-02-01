@@ -133,7 +133,7 @@ def getRobotsFile(domain):
         sys.exit("Could not retrieve robots.txt!")
 
 if __name__ == "__main__":
-print('''
+    print('''
 ░░░░▄▄▄▄▀▀▀▀▀▀▀▀▄▄▄▄▄▄
 ░░░░█░░░░▒▒▒▒▒▒▒▒▒▒▒▒░░▀▀▄
 ░░░█░░░▒▒▒▒▒▒░░░░░░░░▒▒▒░░█
