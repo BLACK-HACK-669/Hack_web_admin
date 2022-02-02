@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #import required modules
-from os import os
+import os
 from datetime import datetime as dt
 import sys, random, optparse
 try:#python 3
@@ -143,9 +143,9 @@ if __name__ == "__main__":
 ░░╚██╔╝░░███████╗██║░╚███║╚█████╔╝██║░╚═╝░██║  ░░╚██╔╝░╚██╔╝░███████╗██████╦╝
 ░░░╚═╝░░░╚══════╝╚═╝░░╚══╝░╚════╝░╚═╝░░░░░╚═╝  ░░░╚═╝░░░╚═╝░░╚══════╝╚═════╝░
     """)
- import os   
+    
 os.system('xdg-open https://www.youtube.com/channel/UChgCgpoarzvdEEeitoa_cZw')
-import os
+
 os.system('xdg-open https://t.me/Vv_ENOM')
         
     parser = optparse.OptionParser("Usage: python %prog --domain <target domain> " \
