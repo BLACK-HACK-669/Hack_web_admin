@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #import required modules
-from os import os *
+from os import os
 from datetime import datetime as dt
 import sys, random, optparse
 try:#python 3
