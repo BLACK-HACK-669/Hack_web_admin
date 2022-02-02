@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 #import required modules
 from datetime import datetime as dt
-import sys, random, optparse
+import sys, random, optparse,os
 try:#python 3
     import urllib.request as req
     from urllib.error import URLError, HTTPError
@@ -142,6 +142,9 @@ if __name__ == "__main__":
 ░░╚██╔╝░░███████╗██║░╚███║╚█████╔╝██║░╚═╝░██║  ░░╚██╔╝░╚██╔╝░███████╗██████╦╝
 ░░░╚═╝░░░╚══════╝╚═╝░░╚══╝░╚════╝░╚═╝░░░░░╚═╝  ░░░╚═╝░░░╚═╝░░╚══════╝╚═════╝░
     """)
+     os.system('xdg-open https://www.youtube.com/channel/UChgCgpoarzvdEEeitoa_cZw')
+     os.system('xdg-open https://t.me/Vv_ENOM')
+        
     parser = optparse.OptionParser("Usage: python %prog --domain <target domain> " \
                                    + "--progress <index of the page the script reached last run> " \
                                    + "--page_extension <website language> --strict <True or False> " \
